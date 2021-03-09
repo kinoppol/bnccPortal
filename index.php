@@ -51,7 +51,7 @@
         <div class="row">
             
           <div class="col-xl-3 col-sm-6 col-12"> 
-            <a href="https://admission.vec.go.th">
+            <a href="https://admission.vec.go.th/web/student.htm?mode=init">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
