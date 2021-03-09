@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>วิทยาลัยพณิชยการบางนา : Bangna Commercial College.</title>
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
@@ -11,6 +17,14 @@
     a h3 :hover{
         font-size: 40em;
     }
+    .card{
+      background-color:rgba(255, 255, 255, 0.95);
+    }
+    .card:hover{
+      background-color:rgba(255, 255, 255, .6);
+      transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    }
     </style>
 <style>
     body{
@@ -23,6 +37,8 @@
         color:navy;
     }
     </style>
+    <link rel="icon" href="favicon.ico"  type="image/icon type">
+</head>
 <body data-menu="vertical-menu" class="vertical-layout vertical-menu 2-columns container boxed-layout menu-collapsed">
 <div class="container-fluid">
 	<section id="minimal-statistics">
@@ -41,7 +57,7 @@
                 <div class="card-body">
                   <div class="media d-flex">
                     <div class="align-self-center">
-                      <i class="icon-pencil primary font-large-2 float-left"></i>
+                      <i class="icon-pencil animated primary font-large-2 float-left"></i>
                     </div>
                     <div class="media-body text-right">
                       <h3>สมัครเรียน</h3>
@@ -312,3 +328,4 @@
   <!-- Copyright -->
 </footer>
 <body>
+</html>
