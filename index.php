@@ -322,7 +322,7 @@
 </div>
 <footer class="text-center text-lg-start">
 <div class="text-center p-3">
-    © 2021 Copyright: <a class="text-dark" href="https://bncc.ac.th/">www.bncc.ac.th</a><br>พัฒนาและดูแลระบบโดย งานศูนย์ข้อมูลสารสนเทศ ฝ่ายแผนงานและความร่วมมือ วิทยาลัยพณิชยการบางนา
+    © <?php print date('Y'); ?> Copyright: <a class="text-dark" href="https://bncc.ac.th/">www.bncc.ac.th</a><br>พัฒนาและดูแลระบบโดย งานศูนย์ข้อมูลสารสนเทศ ฝ่ายแผนงานและความร่วมมือ วิทยาลัยพณิชยการบางนา
     
   </div>
   <!-- Copyright -->
