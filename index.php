@@ -18,10 +18,10 @@
         font-size: 40em;
     }
     .card{
-      background-color:rgba(255, 255, 255, 0.95);
+      background-color:rgba(255, 255, 255, 0.7);
     }
     .card:hover{
-      background-color:rgba(255, 255, 255, .6);
+      background-color:rgba(255, 255, 255, .95);
       transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
     }
