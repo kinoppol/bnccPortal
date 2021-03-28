@@ -34,6 +34,13 @@
         background-position: center;
     }
     .modal-backdrop {background-color:rgba(0, 0, 0, 0.4);}
+    .modal-container {
+  flex-basis: 50%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 3px;
+  color:#000;
+}
     .switch {
   position: relative;
   display: inline-block;
@@ -100,6 +107,10 @@ input:checked + .slider:before {
   background-color: black;
   color: white;
 }
+.dark-mode .modal-title {
+  color:#000;
+}
+
 .dark-mode .card{
       background-color:rgba(0, 0, 0, 0.8);
     }
@@ -430,15 +441,15 @@ input:checked + .slider:before {
       </div>
       <div class="modal-body">
       <div class="d-grid gap-2">
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการบัญชี</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการตลาด</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการจัดการเลขานุการ</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาคอมพิวเตอร์ธุรกิจ</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาภาษาต่างประเทศ</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการโรงแรม</a>        
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการจัดประชุมและนิทรรศการ</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาการจัดการโลจิสติกส์</a>
-        <a href="#" class="btn btn-primary btn-block">แผนกวิชาเทคโนโลยีสารสนเทศ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการบัญชี</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการตลาด</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการจัดการเลขานุการ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาคอมพิวเตอร์ธุรกิจ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาภาษาต่างประเทศ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการโรงแรม</a>        
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการจัดประชุมและนิทรรศการ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาการจัดการโลจิสติกส์</a>
+        <a href="#" class="btn btn-outline-primary btn-block">แผนกวิชาเทคโนโลยีสารสนเทศ</a>
         </div>
       </div>
       <div class="modal-footer">
@@ -460,10 +471,10 @@ input:checked + .slider:before {
       </div>
       <div class="modal-body">
       <div class="d-grid gap-2">
-        <a href="#" class="btn btn-primary btn-block">ฝ่ายพัฒนากิจการนักเรียนนักศึกษา</a>
-        <a href="#" class="btn btn-primary btn-block">ฝ่ายแผนงานและความร่วมมือ</a>
-        <a href="#" class="btn btn-primary btn-block">ฝ่ายวิชาการ</a>
-        <a href="#" class="btn btn-primary btn-block">ฝ่ายบริหารทรัพยากร</a>
+        <a href="#" class="btn btn-outline-primary btn-block">ฝ่ายพัฒนากิจการนักเรียนนักศึกษา</a>
+        <a href="#" class="btn btn-outline-primary btn-block">ฝ่ายแผนงานและความร่วมมือ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">ฝ่ายวิชาการ</a>
+        <a href="#" class="btn btn-outline-primary btn-block">ฝ่ายบริหารทรัพยากร</a>
         </div>
       </div>
       <div class="modal-footer">
