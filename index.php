@@ -484,13 +484,37 @@ input:checked + .slider:before {
   </div>
 </div>
 <script>
+
+<div class="modal" tabindex="-1" role="dialog" id="evaBox" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">ตรวจสอบผลการเรียน</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="d-grid gap-2">
+        <a href="http://eva.bncc.ac.th/eva/?p=authen/login/form/student/" class="btn btn-outline-primary btn-block">ระบบรายงานผลการเรียน</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
 $(function(){
   var d = new Date();
   if(d.getHours()>17||d.getHours()<6){
     $("#darkModeSwitch").prop('checked', true);
       darkMode();
   }
-  $('html, body').show()
+  $('html, body').show();
+  $("#evaBox").modal('show');
 });
 function darkMode() {
    var element = document.body;
