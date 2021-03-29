@@ -495,7 +495,7 @@ input:checked + .slider:before {
       </div>
       <div class="modal-body">
       <div class="d-grid gap-2">
-        <a href="http://eva.bncc.ac.th/eva/?p=authen/login/form/student/" class="btn btn-outline-primary btn-block">ระบบรายงานผลการเรียน</a>
+        <a href="http://eva.bncc.ac.th/eva/?p=authen/login/form/student/" class="btn btn-success btn-block">ระบบรายงานผลการเรียน</a>
         </div>
       </div>
       <div class="modal-footer">
