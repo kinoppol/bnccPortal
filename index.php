@@ -483,7 +483,6 @@ input:checked + .slider:before {
     </div>
   </div>
 </div>
-<script>
 
 <div class="modal" tabindex="-1" role="dialog" id="evaBox" aria-hidden="true">
   <div class="modal-dialog" role="document">
