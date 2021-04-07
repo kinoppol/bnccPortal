@@ -513,7 +513,7 @@ $(function(){
       darkMode();
   }
   $('html, body').show();
-  $("#evaBox").modal('show');
+  //$("#evaBox").modal('show');
 });
 function darkMode() {
    var element = document.body;
