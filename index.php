@@ -111,6 +111,7 @@ input:checked + .slider:before {
   color:#000;
 }
 
+
 .dark-mode .card{
       background-color:rgba(0, 0, 0, 0.8);
     }
@@ -430,7 +431,7 @@ input:checked + .slider:before {
   </div>
   <!-- Copyright -->
 </footer>
-<div class="modal" tabindex="-1" role="dialog" id="deptBox" aria-hidden="true">
+<div class="modal modal-container" tabindex="-1" role="dialog" id="deptBox" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -460,7 +461,7 @@ input:checked + .slider:before {
 </div>
 
 
-<div class="modal" tabindex="-1" role="dialog" id="secBox" aria-hidden="true">
+<div class="modal modal-container" tabindex="-1" role="dialog" id="secBox" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
