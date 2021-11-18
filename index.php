@@ -260,7 +260,7 @@ input:checked + .slider:before {
                   <div class="media d-flex">
                     <div class="media-body text-left">
                       <h3 class="success">การรับสมัครงาน</h3>
-                      <span>Information System</span>
+                      <span>Recruiting</span>
                     </div>
                     <div class="align-self-center">
                       <i class="icon-people success font-large-2 float-right"></i>
