@@ -253,17 +253,17 @@ input:checked + .slider:before {
               </a>
           </div>
           <div class="col-xl-3 col-sm-6 col-12">
-                <a href="https://rms.bncc.ac.th">
+                <a href="https://www.bncc.ac.th/web/category/%e0%b8%a3%e0%b8%b1%e0%b8%9a%e0%b8%aa%e0%b8%a1%e0%b8%b1%e0%b8%84%e0%b8%a3/">
             <div class="card">
               <div class="card-content">
                 <div class="card-body">
                   <div class="media d-flex">
                     <div class="media-body text-left">
-                      <h3 class="success">ระบบสารสนเทศ</h3>
+                      <h3 class="success">การรับสมัครงาน</h3>
                       <span>Information System</span>
                     </div>
                     <div class="align-self-center">
-                      <i class="icon-screen-desktop success font-large-2 float-right"></i>
+                      <i class="icon-people success font-large-2 float-right"></i>
                     </div>
                   </div>
                 </div>
